@@ -1,0 +1,35 @@
+@keyframes flash-run{
+  0%{
+    top: 0;
+    left: 0;
+  }
+  16.6%{
+    top: 0;
+    left:35vh;
+  }
+  33.2%{
+    top: calc(100% - 60vh);
+    left: 35vh;
+  }
+  49.8%{
+    top: calc(100% - 60vh);
+    left: 100vh;
+  }
+  66.4%{
+    top: calc(100% - 60vh);
+    left: 150vh;
+  } 
+  83%{
+      top: calc(100% - 30vh);
+      left: 150vh;
+  }
+  99.6%{
+    top: calc(100% - 30vh);
+    left: 220vh;
+  }
+  100%{
+    top: calc(100% - 30vh);
+    left: 220vh;
+    animation-delay: 3s;
+  }
+}
